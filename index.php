@@ -51,13 +51,6 @@
         polygon.bindPopup("I am a polygon.");
 
 
-        var popup = L.popup()
-            .setLatLng([0.19243763676280343, 113.3581752884544])
-            .setContent("I am a standalone popup.")
-            .openOn(mymap);
-
-            var popup = L.popup();
-
         function onMapClick(e) {
             popup
                 .setLatLng(e.latlng)
